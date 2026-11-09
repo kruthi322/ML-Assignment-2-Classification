@@ -158,3 +158,4 @@ for model_name in MODEL_FILES:
 st.dataframe(
     pd.DataFrame(comparison_rows).set_index("Model").style.format("{:.4f}"),
     use_container_width=True,
+)
